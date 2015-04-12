@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<!-- Master bakefile for POV-Ray -->
+
+<makefile>
+
+    <include file="config.bkl"/>
+
+    <include file="files.bkl"/>
+
+    <exe id="povray" cond="USE_GUI=='0'" template="pov">
+        <app-type>console</app-type>
+    </exe>
+
+    <exe id="pvengine" cond="USE_GUI=='1'" template="pov">
+        <app-type>gui</app-type>
+        <sources>$(GUI_FILES)</sources>
+        <win32-res>windows/pvengine.rc</win32-res>
+    </exe>
+
+</makefile>

@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="POV-Ray Core">
+      <UniqueIdentifier>{c4eaf7eb-7323-41da-acf4-2b1eeda3c395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="POV-Ray Core\Header Files">
+      <UniqueIdentifier>{dfaca2f3-6851-4395-afd7-e920d83301bd}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="POV-Ray Core\Source Files">
+      <UniqueIdentifier>{55e0c1e0-73c4-4547-89d5-51497ce97e03}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Windows Source">
+      <UniqueIdentifier>{669c7e7a-20ab-46ac-b81a-5db285fcbbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows Source\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Windows Source\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Windows Source\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\atmosph.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\bbox.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\bcyl.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\benchmark.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\bezier.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\blob.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\boxes.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\bsphere.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\camera.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\chi2.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\colour.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\colutils.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\cones.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\configbase.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frontend\configfrontend.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\csg.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frontend\defaultplatformbase.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frontend\defaultrenderfrontend.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\discs.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\express.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\fileinputoutput.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\fncode.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\fnintern.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\fnpovfpu.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\fnsyntax.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\fpmetric.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\fractal.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frame.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\function.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gif.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gifdecod.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\hcmplx.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\hfield.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\histogra.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\iff.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\image.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\interior.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\isosurf.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\jpeg_pov.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\lathe.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\lbuffer.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\lightgrp.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\lighting.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\mathutil.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\matrices.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\media.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\mesh.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frontend\messageoutput.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\normal.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\objects.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\octree.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\optout.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\parse.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\parsestr.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\parstxtr.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\pattern.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\pgm.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\photons.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\pigment.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\planes.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\platformbase.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\png_pov.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\point.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\pointer.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\poly.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\polygon.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\polysolv.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\pov_err.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\pov_mem.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\pov_util.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\povms.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\povmscpp.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\povmsend.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\povmsgid.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\povmsrec.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\povray.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ppm.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\prism.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\processoptions.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frontend\processrenderoptions.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\quadrics.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\quatern.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\radiosit.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ray.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\rendctrl.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\render.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\frontend\renderfrontend.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\renderio.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\reswords.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sor.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\spheres.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\sphsweep.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\splines.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\statspov.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\stringutilities.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\super.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\targa.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\textstream.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\base\textstreambuffer.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\texture.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\tiff_pov.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\tokenize.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\torus.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\triangle.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\truetype.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\txttest.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\userdisp.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\userio.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\vbuffer.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\vector.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\vlbuffer.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\warps.h">
+      <Filter>POV-Ray Core\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\config.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvbitmap.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvbmp.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvdemo.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvdialog.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvedit.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvengine.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvfrontend.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvguiext.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvlegal.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\pvtips.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\resource.h">
+      <Filter>Windows Source\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\atmosph.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\bbox.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\bcyl.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\benchmark.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\bezier.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\blob.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\boxes.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\bsphere.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\camera.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\chi2.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\colour.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\colutils.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\cones.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\csg.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\frontend\defaultplatformbase.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\frontend\defaultrenderfrontend.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\discs.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\express.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\fileinputoutput.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fncode.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fnintern.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fnpovfpu.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fnsyntax.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fpmetric.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fractal.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\function.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gif.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gifdecod.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\hcmplx.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\hfield.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\histogra.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\iff.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\image.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\interior.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\isosurf.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\jpeg_pov.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\lathe.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\lbuffer.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\lightgrp.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\lighting.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mathutil.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\matrices.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\media.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mesh.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\frontend\messageoutput.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\normal.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\objects.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\octree.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\optout.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\parse.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\parsestr.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\parstxtr.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\pattern.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\pgm.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\photons.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\pigment.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\planes.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\png_pov.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\point.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\poly.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\polygon.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\polysolv.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\pov_mem.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\pov_util.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\povms.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\povmscpp.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\povmsend.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\povmsrec.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\povray.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ppm.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\prism.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\processoptions.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\frontend\processrenderoptions.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\quadrics.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\quatern.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rad_data.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\radiosit.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ray.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rendctrl.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\render.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\frontend\renderfrontend.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\renderio.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\reswords.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sor.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\spheres.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\sphsweep.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\splines.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\statspov.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\stringutilities.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\super.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\targa.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\textstream.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\base\textstreambuffer.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\texture.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tiff_pov.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tokenize.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\torus.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\triangle.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\truetype.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\txttest.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\userdisp.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\userio.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\vbuffer.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\vlbuffer.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\warps.cpp">
+      <Filter>POV-Ray Core\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvbitmap.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvbmp.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvdialog.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvedit.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvengine.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvfiles.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvfrontend.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvguiext.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvmenu.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvmisc.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\pvtext.cpp">
+      <Filter>Windows Source\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\pvengine.rc">
+      <Filter>Windows Source\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

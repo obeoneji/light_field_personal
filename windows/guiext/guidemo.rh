@@ -1,0 +1,10 @@
+#define IDD_ABOUT                 2000
+#define IDM_MENU                  1000
+#define CM_ENABLED                0
+#define CM_ABOUT                  1
+#define CM_HELP                   2
+#define CM_EXITPOV                3
+#define CM_STARTRENDERING         4
+#define CM_STOPRENDERING          5
+#define ID_PIXELS                 100
+#define ID_HOMEPATH               101

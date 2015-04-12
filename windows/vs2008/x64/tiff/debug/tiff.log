@@ -1,0 +1,27 @@
+﻿Build started 4/9/2015 4:56:57 AM.
+     1>Project "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\tiff.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\tiff\debug\tiff.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         nmake tifconf.mak
+         :VCEnd
+         
+         Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\tiff.lib) does not match the Library's OutputFile property value (D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\x64\tiff\debug\tiff.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         All outputs are up-to-date.
+         tiff.vcxproj -> D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\tiff.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\tiff\debug\tiff.unsuccessfulbuild".
+         Touching "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\tiff\debug\tiff.lastbuildstate".
+     1>Done Building Project "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\tiff.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26

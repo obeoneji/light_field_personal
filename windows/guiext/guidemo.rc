@@ -1,0 +1,18 @@
+#include "guidemo.rh"
+#include "windows.h"
+
+IDD_ABOUT DIALOG 111, 144, 350, 140
+STYLE DS_MODALFRAME | 0x4L | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About the GUI Extension Test DLL"
+FONT 8, "Arial"
+{
+    CTEXT           "Copyright © 1996-2002 by the POV-Team.\rAll rights reserved worldwide.\r\nPOV-Ray and its associated programs are copyrighted freeware.\rThis program may only be distributed under the conditions granted in POVEXT.TXT.",
+                    -1,24,23,301,44,SS_NOPREFIX
+    PUSHBUTTON      "&OK",IDOK,137,115,75,21
+    GROUPBOX        "",-1,5,1,339,71
+    CTEXT           "POV-Ray(tm) for Windows GUI Extension test DLL",-1,8,10,
+                    333,11,WS_TABSTOP
+    GROUPBOX        "",-1,5,73,339,37
+    CTEXT           "No pixels traced",ID_PIXELS,10,81,329,10,WS_TABSTOP
+    CTEXT           "",ID_HOMEPATH,10,95,329,10,WS_TABSTOP
+}

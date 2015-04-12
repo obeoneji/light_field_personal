@@ -1,0 +1,6 @@
+NAME        guidemo
+DESCRIPTION 'POV-Ray(tm) for Windows GUI Extension Demonstration DLL - Copyright © 2003-2004 Persistnce of Vision Raytracer Pty. Ltd. All Rights Reserved.'
+
+EXPORTS
+	PovGuiExtensionGetPointers
+

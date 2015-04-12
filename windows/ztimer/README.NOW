@@ -1,0 +1,10 @@
+This source code is provided for those who need to port ZTIMER to another
+Intel compiler. ZTimer is only useful for those who are using a PC-compatible
+system since it relies on reading timing information from the PC timer chip.
+It is possible to use the Windows timing routines, however, these are less
+accurate than the hardware method, and will generally not be useful.
+
+ZTimer is only needed if you want to use profiling. If you don't want to use
+it, you don't need ZTimer. In this case, just DON'T define
+PRECISION_TIMER_AVAILABLE in CONFIG.H.
+

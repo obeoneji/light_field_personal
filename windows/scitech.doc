@@ -1,0 +1,27 @@
+The following files in this directory are copyrighted freeware created by 
+SciTech Software.  
+
+  ZTIMER.H
+  ZTIMER\ULZTIMER.C
+  ZTIMER\LZTIMER.ASM
+  ZTIMER\ZTIMER.CPP
+  ZTIMER.LIB
+
+The POV-Ray Team has been given permission to include these files in the
+Windows version of POV-Ray.
+
+ZTIMER.H and ZTIMER.LIB are an interrupt driven routine to provide timing
+functions for POV-Ray speed profiling histogram option. UZLTIMER.C and
+LZTIMER.ASM are the source code to ZTIMER.LIB but you will probably not
+need them.
+
+The POV-Ray Team knows just enough about SciTech's modules to make them
+work for our limited purposes.  We cannot provide technical support for them.
+More details on these SciTech modules is available in their full packages.
+
+To obtain the absolute latest release of all SciTech Software products, you
+can ftp them from their home site or from their web page:
+
+    ftp.scitechsoft.com
+    www.scitechsoft.com
+

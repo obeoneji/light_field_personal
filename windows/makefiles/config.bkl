@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+
+<makefile>
+
+    <option name="USE_GUI">
+        <values>0,1</values>
+        <values-description>Console,GUI</values-description>
+        <default-value>0</default-value>
+        <description>Build GUI libraries?</description>
+    </option>
+
+    <option name="BUILD">
+        <values>debug,release</values>
+        <values-description>Debug,Release</values-description>
+        <default-value>debug</default-value>
+        <description>Type of compiled binaries</description>
+    </option>
+
+    <set var="CONFIG_PATH" make_var="1">
+        <if cond="USE_GUI=='0'">windows/console</if>
+        <if cond="USE_GUI=='1'">windows</if>
+    </set>
+
+    <set var="OBJS" make_var="1">
+        <if cond="USE_GUI=='0'">$(COMPILER)_con_$(BUILD)</if>
+        <if cond="USE_GUI=='1'">$(COMPILER)_gui_$(BUILD)</if>
+    </set>
+
+    <set var="BUILDDIR">$(OBJS)</set>
+
+    <set var="DEBUGINFO">
+        <if cond="BUILD=='debug'">on</if>
+        <if cond="BUILD=='release'">off</if>
+    </set>
+
+    <template id="pov">
+        <include>$(CONFIG_PATH)</include>
+        <include>source</include>
+        <include>source/patches</include>
+        <include>source/base</include>
+        <include>source/frontend</include>
+        <include>libraries/jpeg</include>
+        <include>libraries/png</include>
+        <include>libraries/zlib</include>
+        <include>libraries/tiff/libtiff</include>
+        <sources>
+            $(BASE_FILES)
+            $(FRONTEND_FILES)
+            $(SRC_FILES)
+            $(JPEG_FILES)
+            $(PNG_FILES)
+            $(ZLIB_FILES)
+            $(TIFF_FILES)
+        </sources>
+        <cppflags cond="FORMAT=='mingw'">-Wno-multichar</cppflags>
+        <cppflags cond="FORMAT=='mingw'">-Wno-conversion</cppflags>
+        <define cond="FORMAT=='mingw'">COMMONCTRL_VERSION=0x0400</define>
+        <debug-info>$(DEBUGINFO)</debug-info>
+        <debug-runtime-libs>$(DEBUGINFO)</debug-runtime-libs>
+    </template>
+
+</makefile>

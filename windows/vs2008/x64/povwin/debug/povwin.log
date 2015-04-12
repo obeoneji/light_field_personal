@@ -1,0 +1,307 @@
+﻿Build started 4/9/2015 4:56:58 AM.
+     1>Project "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\povwin.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povwin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\ /I..\..\source /I..\..\source\base /I..\..\source\frontend /I"..\..\source-private" /I..\..\libraries\jpeg /I..\..\libraries\zlib /I..\..\libraries\png /I..\..\libraries\tiff\libtiff /Zi /nologo /W3 /WX- /Od /Oi /D _DEBUG /D WIN32 /D _WINDOWS /D WINVER=0x0500 /D _WIN32_WINNT=0x0500 /D COMMONCTRL_VERSION=0x500 /D CLASSLIB_DEFS_H /D NOMINMAX /D ISOLATION_AWARE_ENABLED /D _CRT_SECURE_NO_WARNINGS=1 /GF /Gm- /EHsc /RTC1 /MTd /Zp4 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\\" /Fd"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\pvengine64d.pdb" /FR"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\\" /Gd /TP /wd4996 /errorReport:prompt ..\..\source\atmosph.cpp ..\..\source\bbox.cpp ..\..\source\benchmark.cpp ..\..\source\bezier.cpp ..\..\source\blob.cpp ..\..\source\boxes.cpp ..\..\source\bsphere.cpp ..\..\source\camera.cpp ..\..\source\colutils.cpp ..\..\source\cones.cpp ..\..\source\csg.cpp ..\..\source\discs.cpp ..\..\source\express.cpp ..\..\source\fncode.cpp ..\..\source\fnintern.cpp ..\..\source\fnpovfpu.cpp ..\..\source\fnsyntax.cpp ..\..\source\fpmetric.cpp ..\..\source\fractal.cpp ..\..\source\frontend\defaultrenderfrontend.cpp ..\..\source\function.cpp ..\..\source\gif.cpp ..\..\source\gifdecod.cpp ..\..\source\hcmplx.cpp ..\..\source\hfield.cpp ..\..\source\histogra.cpp ..\..\source\iff.cpp ..\..\source\image.cpp ..\..\source\interior.cpp ..\..\source\isosurf.cpp ..\..\source\jpeg_pov.cpp ..\..\source\lathe.cpp ..\..\source\lbuffer.cpp ..\..\source\lightgrp.cpp ..\..\source\lighting.cpp ..\..\source\media.cpp ..\..\source\mesh.cpp ..\..\source\normal.cpp ..\..\source\objects.cpp ..\..\source\octree.cpp ..\..\source\optout.cpp ..\..\source\parse.cpp ..\..\source\parsestr.cpp ..\..\source\parstxtr.cpp ..\..\source\pattern.cpp ..\..\source\pgm.cpp ..\..\source\photons.cpp ..\..\source\pigment.cpp ..\..\source\planes.cpp ..\..\source\png_pov.cpp ..\..\source\point.cpp ..\..\source\poly.cpp ..\..\source\polygon.cpp ..\..\source\polysolv.cpp ..\..\source\pov_mem.cpp ..\..\source\pov_util.cpp ..\..\source\povmsend.cpp ..\..\source\povmsrec.cpp ..\..\source\povray.cpp ..\..\source\ppm.cpp ..\..\source\prism.cpp ..\..\source\quadrics.cpp ..\..\source\quatern.cpp ..\..\source\radiosit.cpp ..\..\source\ray.cpp ..\..\source\rendctrl.cpp ..\..\source\render.cpp ..\..\source\renderio.cpp ..\..\source\reswords.cpp ..\..\source\sor.cpp ..\..\source\spheres.cpp ..\..\source\sphsweep.cpp ..\..\source\statspov.cpp ..\..\source\super.cpp ..\..\source\targa.cpp ..\..\source\texture.cpp ..\..\source\tiff_pov.cpp ..\..\source\tokenize.cpp ..\..\source\torus.cpp ..\..\source\triangle.cpp ..\..\source\truetype.cpp ..\..\source\txttest.cpp ..\..\source\userdisp.cpp ..\..\source\userio.cpp ..\..\source\vbuffer.cpp ..\..\source\vlbuffer.cpp ..\pvbitmap.cpp ..\pvbmp.cpp ..\pvdialog.cpp ..\pvedit.cpp ..\pvengine.cpp ..\pvfiles.cpp ..\pvfrontend.cpp ..\pvguiext.cpp ..\pvmenu.cpp ..\pvmisc.cpp ..\pvtext.cpp
+         atmosph.cpp
+         bbox.cpp
+     1>..\..\source\bbox.cpp(943): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         benchmark.cpp
+         bezier.cpp
+         blob.cpp
+         boxes.cpp
+         bsphere.cpp
+         camera.cpp
+         colutils.cpp
+         cones.cpp
+         csg.cpp
+         discs.cpp
+         express.cpp
+     1>..\..\source\express.cpp(3096): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\express.cpp(3126): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         fncode.cpp
+         fnintern.cpp
+         fnpovfpu.cpp
+         fnsyntax.cpp
+         fpmetric.cpp
+         fractal.cpp
+         defaultrenderfrontend.cpp
+         Generating Code...
+         Compiling...
+         function.cpp
+         gif.cpp
+         gifdecod.cpp
+         hcmplx.cpp
+         hfield.cpp
+         histogra.cpp
+         iff.cpp
+         image.cpp
+         interior.cpp
+         isosurf.cpp
+         jpeg_pov.cpp
+     1>..\..\source\jpeg_pov.cpp(279): warning C4267: '-=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\source\jpeg_pov.cpp(312): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         lathe.cpp
+         lbuffer.cpp
+         lightgrp.cpp
+         lighting.cpp
+         media.cpp
+         mesh.cpp
+         normal.cpp
+         objects.cpp
+     1>..\..\source\objects.cpp(175): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         octree.cpp
+         Generating Code...
+         Compiling...
+         optout.cpp
+         parse.cpp
+     1>..\..\source\parse.cpp(8494): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\parse.cpp(8497): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+         parsestr.cpp
+     1>..\..\source\parsestr.cpp(609): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\parsestr.cpp(627): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         parstxtr.cpp
+         pattern.cpp
+         pgm.cpp
+     1>..\..\source\pgm.cpp(156): warning C4101: 'line' : unreferenced local variable
+     1>..\..\source\pgm.cpp(157): warning C4101: 'ptr' : unreferenced local variable
+         photons.cpp
+     1>..\..\source\photons.cpp(262): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\photons.cpp(300): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\photons.cpp(347): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\photons.cpp(382): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         pigment.cpp
+         planes.cpp
+         png_pov.cpp
+     1>..\..\source\png_pov.cpp(195): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\..\source\png_pov.cpp(224): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>..\..\source\png_pov.cpp(314): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\source\png_pov.cpp(315): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+         point.cpp
+         poly.cpp
+         polygon.cpp
+         polysolv.cpp
+         pov_mem.cpp
+     1>..\..\source\pov_mem.cpp(370): warning C4267: 'argument' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\source\pov_mem.cpp(522): warning C4267: 'argument' : conversion from 'size_t' to 'long', possible loss of data
+         pov_util.cpp
+     1>..\..\source\pov_util.cpp(239): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>..\..\source\pov_util.cpp(269): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>..\..\source\pov_util.cpp(365): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         povmsend.cpp
+     1>..\..\source\povmsend.cpp(171): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>..\..\source\povmsend.cpp(409): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\povmsend.cpp(617): warning C4267: 'argument' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\source\povmsend.cpp(618): warning C4267: 'argument' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\source\povmsend.cpp(631): warning C4267: 'argument' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\..\source\povmsend.cpp(910): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\povmsend.cpp(930): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\povmsend.cpp(951): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\povmsend.cpp(965): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\povmsend.cpp(979): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\povmsend.cpp(993): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         povmsrec.cpp
+         povray.cpp
+     1>..\..\source\povray.cpp(551): warning C4800: 'unsigned long' : forcing value to bool 'true' or 'false' (performance warning)
+         ppm.cpp
+     1>..\..\source\ppm.cpp(98): warning C4101: 'line' : unreferenced local variable
+     1>..\..\source\ppm.cpp(99): warning C4101: 'ptr' : unreferenced local variable
+     1>..\..\source\ppm.cpp(494): warning C4101: 'line' : unreferenced local variable
+     1>..\..\source\ppm.cpp(495): warning C4101: 'ptr' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         prism.cpp
+         quadrics.cpp
+         quatern.cpp
+         radiosit.cpp
+         ray.cpp
+         rendctrl.cpp
+     1>..\..\source\rendctrl.cpp(928): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\rendctrl.cpp(948): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         render.cpp
+     1>..\..\source\render.cpp(803): warning C4805: '==' : unsafe mix of type 'volatile int' and type 'bool' in operation
+         renderio.cpp
+     1>..\..\source\renderio.cpp(259): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+         reswords.cpp
+         sor.cpp
+         spheres.cpp
+         sphsweep.cpp
+         statspov.cpp
+         super.cpp
+         targa.cpp
+         texture.cpp
+         tiff_pov.cpp
+         tokenize.cpp
+     1>..\..\source\tokenize.cpp(2044): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         torus.cpp
+         triangle.cpp
+         Generating Code...
+         Compiling...
+         truetype.cpp
+         txttest.cpp
+         userdisp.cpp
+         userio.cpp
+     1>..\..\source\userio.cpp(485): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(514): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(520): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(526): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(533): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(540): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(547): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\source\userio.cpp(554): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         vbuffer.cpp
+         vlbuffer.cpp
+         pvbitmap.cpp
+         pvbmp.cpp
+         pvdialog.cpp
+         pvedit.cpp
+         pvengine.cpp
+         pvfiles.cpp
+     1>d:\ji_amd\povwin_s\povwin-3.62\windows\pvlegal.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         pvfrontend.cpp
+         pvguiext.cpp
+         pvmenu.cpp
+         pvmisc.cpp
+         pvtext.cpp
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin.exe) does not match the Linker's OutputFile property value (D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\bin64\pvengine64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(povwin) does not match the Linker's OutputFile property value (pvengine64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin64\pvengine64.exe" /INCREMENTAL:NO /NOLOGO comctl32.lib gdi32.lib user32.lib kernel32.lib advapi32.lib shell32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povwin.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\pvengine64d.pdb" /SUBSYSTEM:WINDOWS /STACK:"2097152" /LARGEADDRESSAWARE /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin.lib" /MACHINE:X64 "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvengine.res"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\atmosph.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bbox.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bcyl.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\benchmark.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bezier.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\blob.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\boxes.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bsphere.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\camera.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\chi2.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\colour.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\colutils.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\cones.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\csg.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\defaultplatformbase.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\defaultrenderfrontend.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\discs.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\express.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fileinputoutput.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fncode.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fnintern.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fnpovfpu.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fnsyntax.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fpmetric.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fractal.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\function.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\gif.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\gifdecod.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\hcmplx.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\hfield.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\histogra.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\iff.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\image.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\interior.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\isosurf.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\jpeg_pov.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lathe.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lbuffer.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lightgrp.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lighting.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\mathutil.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\matrices.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\media.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\mesh.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\messageoutput.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\normal.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\objects.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\octree.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\optout.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\parse.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\parsestr.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\parstxtr.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pattern.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pgm.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\photons.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pigment.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\planes.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\png_pov.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\point.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\poly.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\polygon.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\polysolv.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pov_mem.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pov_util.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povms.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povmscpp.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povmsend.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povmsrec.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povray.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\ppm.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\prism.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\processoptions.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\processrenderoptions.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\quadrics.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\quatern.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\rad_data.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\radiosit.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\ray.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\rendctrl.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\render.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\renderfrontend.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\renderio.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\reswords.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\sor.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\spheres.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\sphsweep.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\splines.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\statspov.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\stringutilities.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\super.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\targa.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\textstream.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\textstreambuffer.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\texture.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\tiff_pov.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\tokenize.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\torus.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\triangle.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\truetype.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\txttest.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\userdisp.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\userio.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\vbuffer.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\vlbuffer.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\warps.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvbitmap.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvbmp.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvdialog.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvedit.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvengine.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvfiles.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvfrontend.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvguiext.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvmenu.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvmisc.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvtext.obj"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\x64\jpeg\debug\jpeg.lib"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\x64\zlib\debug\zlib.lib"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\x64\libpng\debug\libpng.lib"
+         "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\x64\tiff\debug\tiff.lib"
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         povwin.vcxproj -> D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin64\pvengine64.exe;#1" /manifest "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povwin.exe.intermediate.manifest" ..\pvengine64.manifest
+       BscMake:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\pvengine64d.bsc" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\atmosph.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bbox.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bcyl.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\benchmark.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bezier.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\blob.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\boxes.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\bsphere.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\camera.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\chi2.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\colour.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\colutils.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\cones.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\csg.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\defaultplatformbase.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\defaultrenderfrontend.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\discs.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\express.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fileinputoutput.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fncode.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fnintern.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fnpovfpu.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fnsyntax.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fpmetric.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\fractal.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\function.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\gif.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\gifdecod.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\hcmplx.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\hfield.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\histogra.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\iff.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\image.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\interior.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\isosurf.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\jpeg_pov.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lathe.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lbuffer.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lightgrp.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\lighting.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\mathutil.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\matrices.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\media.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\mesh.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\messageoutput.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\normal.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\objects.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\octree.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\optout.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\parse.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\parsestr.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\parstxtr.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pattern.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pgm.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\photons.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pigment.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\planes.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\png_pov.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\point.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\poly.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\polygon.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\polysolv.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pov_mem.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pov_util.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povms.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povmscpp.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povmsend.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povmsrec.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povray.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\ppm.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\prism.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\processoptions.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\processrenderoptions.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\quadrics.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\quatern.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\rad_data.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\radiosit.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\ray.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\rendctrl.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\render.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\renderfrontend.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\renderio.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\reswords.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\sor.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\spheres.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\sphsweep.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\splines.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\statspov.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\stringutilities.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\super.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\targa.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\textstream.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\textstreambuffer.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\texture.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\tiff_pov.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\tokenize.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\torus.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\triangle.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\truetype.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\txttest.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\userdisp.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\userio.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\vbuffer.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\vlbuffer.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\warps.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvbitmap.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvbmp.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvdialog.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvedit.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvengine.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvfiles.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvfrontend.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvguiext.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvmenu.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvmisc.sbr" "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\pvtext.sbr"
+       FinalizeBuildStatus:
+         Deleting file "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povwin.unsuccessfulbuild".
+         Touching "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\\x64\povwin\debug\povwin.lastbuildstate".
+     1>Done Building Project "D:\Ji_AMD\povwin_s\povwin-3.62\windows\vs2008\povwin.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:41.18

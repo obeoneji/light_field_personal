@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5c11d6ea-c482-4319-ab5b-c2d72378ef63}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b57a73f0-36e9-4242-8b8b-8167e8c8e744}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{fa100789-3fdc-405e-88c2-88f0fa071042}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\codemax\source\bookmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\cedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ceditmsg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ceditx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\cmdarry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\CodeListCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\CodeTipCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\CodeTipFuncHighlightCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\CodeTipHighlightCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\CodeTipMultiFuncCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ctlstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\dragdrop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\editcmd1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\editdlgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\editsel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\editview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\exports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\findrepl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\globalsx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\hkeyctrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\hotkey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\hotkeyx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ICodeList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ICodeTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ICodeTipFuncHighlight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ICodeTipHighlight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\ICodeTipMultiFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\language.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\langx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\macro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\msgpump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\posx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\precomp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\print.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\props.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\rangex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\rectx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\regexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\selftest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\splitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\undo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\codemax\source\Wnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\codemax\source\codemax.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\codemax\source\codemaxx.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\codemax\source\Wnd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\btn_left.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\btn_right.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\CODEMAX.RC2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\editx.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\ENDMREC.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\globalsx.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\hotkeyx.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\HSPLIT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\HVSPLIT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\langx.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\LEFTMARG.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\posx.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\rangex.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\RECMACRO.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\rectx.rgs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\TOOLBOX.BMP">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\codemax\source\res\VSPLIT.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\codemax\source\codemax.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\codemax\source\BUFFER.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CEDIT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CEDITX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\include\CMAXAFX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CMIDLIDS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CodeListCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\codemax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CodeTipCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CodeTipFuncHighlightCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CodeTipHighlightCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\CodeTipMultiFuncCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\DEBUG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\DispatchWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\DRAGDROP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\EDITDLGS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\EDITSEL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\EDITVIEW.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\GLOBALSX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\HKEYCTRL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\hotkeyx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeTip.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeTipFuncHighlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeTipFuncHighlight.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeTipHighlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\ICodeTipMultiFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\LANGX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\MISC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\POSX.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\PRECOMP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\rectx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\RegClassList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\regexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\resource2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\UNDO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\codemax\source\Wnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

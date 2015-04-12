@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB4169BC-E5A2-4864-9B61-C2DEA8204344}</ProjectGuid>
+    <RootNamespace>codemax</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">bin64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(ProjectDir)\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|Win32'">bin32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(ProjectDir)\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">bin64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(ProjectDir)\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;WIN32;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_DEPRECATE;_HAS_ITERATOR_DEBUGGING=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)povcmax32d.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)povcmax32d.dll</OutputFile>
+      <ModuleDefinitionFile>..\codemax\source\codemax.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)povcmax32d.pdb</ProgramDatabaseFile>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <OutputFile>$(OutDir)povcmax32d.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;WIN32;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_DEPRECATE;_HAS_ITERATOR_DEBUGGING=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)povcmax64d.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)povcmax64d.dll</OutputFile>
+      <ModuleDefinitionFile>..\codemax\source\codemax.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)povcmax64d.pdb</ProgramDatabaseFile>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Bscmake>
+      <OutputFile>$(OutDir)povcmax64d.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WIN32;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)povcmax32.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)povcmax32.dll</OutputFile>
+      <ModuleDefinitionFile>..\codemax\source\codemax.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)povcmax32.pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <OutputFile>$(OutDir)povcmax32.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;WIN32;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_DEPRECATE;_SECURE_SCL=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)povcmax64.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>version.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)povcmax64.dll</OutputFile>
+      <ModuleDefinitionFile>..\codemax\source\codemax.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)povcmax64.pdb</ProgramDatabaseFile>
+      <SubSystem>NotSet</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Bscmake>
+      <OutputFile>$(OutDir)povcmax64.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\codemax\source\bookmark.cpp" />
+    <ClCompile Include="..\codemax\source\buffer.cpp" />
+    <ClCompile Include="..\codemax\source\cedit.cpp" />
+    <ClCompile Include="..\codemax\source\ceditmsg.cpp" />
+    <ClCompile Include="..\codemax\source\ceditx.cpp" />
+    <ClCompile Include="..\codemax\source\cmdarry.cpp" />
+    <ClCompile Include="..\codemax\source\CodeListCtrl.cpp" />
+    <ClCompile Include="..\codemax\source\CodeTipCtrl.cpp" />
+    <ClCompile Include="..\codemax\source\CodeTipFuncHighlightCtrl.cpp" />
+    <ClCompile Include="..\codemax\source\CodeTipHighlightCtrl.cpp" />
+    <ClCompile Include="..\codemax\source\CodeTipMultiFuncCtrl.cpp" />
+    <ClCompile Include="..\codemax\source\ctlstate.cpp" />
+    <ClCompile Include="..\codemax\source\debug.cpp" />
+    <ClCompile Include="..\codemax\source\dragdrop.cpp" />
+    <ClCompile Include="..\codemax\source\editcmd1.cpp" />
+    <ClCompile Include="..\codemax\source\editdlgs.cpp" />
+    <ClCompile Include="..\codemax\source\editsel.cpp" />
+    <ClCompile Include="..\codemax\source\editview.cpp" />
+    <ClCompile Include="..\codemax\source\exports.cpp" />
+    <ClCompile Include="..\codemax\source\findrepl.cpp" />
+    <ClCompile Include="..\codemax\source\globalsx.cpp" />
+    <ClCompile Include="..\codemax\source\hkeyctrl.cpp" />
+    <ClCompile Include="..\codemax\source\hotkey.cpp" />
+    <ClCompile Include="..\codemax\source\hotkeyx.cpp" />
+    <ClCompile Include="..\codemax\source\ICodeList.cpp" />
+    <ClCompile Include="..\codemax\source\ICodeTip.cpp" />
+    <ClCompile Include="..\codemax\source\ICodeTipFuncHighlight.cpp" />
+    <ClCompile Include="..\codemax\source\ICodeTipHighlight.cpp" />
+    <ClCompile Include="..\codemax\source\ICodeTipMultiFunc.cpp" />
+    <ClCompile Include="..\codemax\source\language.cpp" />
+    <ClCompile Include="..\codemax\source\langx.cpp" />
+    <ClCompile Include="..\codemax\source\line.cpp" />
+    <ClCompile Include="..\codemax\source\macro.cpp" />
+    <ClCompile Include="..\codemax\source\misc.cpp" />
+    <ClCompile Include="..\codemax\source\msgpump.cpp" />
+    <ClCompile Include="..\codemax\source\posx.cpp" />
+    <ClCompile Include="..\codemax\source\precomp.cpp" />
+    <ClCompile Include="..\codemax\source\print.cpp" />
+    <ClCompile Include="..\codemax\source\props.cpp" />
+    <ClCompile Include="..\codemax\source\rangex.cpp" />
+    <ClCompile Include="..\codemax\source\rectx.cpp" />
+    <ClCompile Include="..\codemax\source\regexp.cpp" />
+    <ClCompile Include="..\codemax\source\selftest.cpp" />
+    <ClCompile Include="..\codemax\source\splitter.cpp" />
+    <ClCompile Include="..\codemax\source\syntax.cpp" />
+    <ClCompile Include="..\codemax\source\undo.cpp" />
+    <ClCompile Include="..\codemax\source\Wnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\codemax\source\codemax.def" />
+    <None Include="..\codemax\source\codemaxx.def" />
+    <None Include="..\codemax\source\Wnd.inl" />
+    <None Include="..\codemax\source\res\btn_left.ico" />
+    <None Include="..\codemax\source\res\btn_right.ico" />
+    <None Include="..\codemax\source\CODEMAX.RC2" />
+    <None Include="..\codemax\source\res\cursor1.cur" />
+    <None Include="..\codemax\source\editx.rgs" />
+    <None Include="..\codemax\source\res\ENDMREC.BMP" />
+    <None Include="..\codemax\source\globalsx.rgs" />
+    <None Include="..\codemax\source\hotkeyx.rgs" />
+    <None Include="..\codemax\source\res\HSPLIT.CUR" />
+    <None Include="..\codemax\source\res\HVSPLIT.CUR" />
+    <None Include="..\codemax\source\langx.rgs" />
+    <None Include="..\codemax\source\res\LEFTMARG.CUR" />
+    <None Include="..\codemax\source\posx.rgs" />
+    <None Include="..\codemax\source\rangex.rgs" />
+    <None Include="..\codemax\source\res\RECMACRO.CUR" />
+    <None Include="..\codemax\source\rectx.rgs" />
+    <None Include="..\codemax\source\res\TOOLBOX.BMP" />
+    <None Include="..\codemax\source\res\VSPLIT.CUR" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\codemax\source\codemax.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\codemax\source\BUFFER.H" />
+    <ClInclude Include="..\codemax\source\CEDIT.H" />
+    <ClInclude Include="..\codemax\source\CEDITX.H" />
+    <ClInclude Include="..\codemax\include\CMAXAFX.H" />
+    <ClInclude Include="..\codemax\source\CMIDLIDS.H" />
+    <ClInclude Include="..\codemax\source\CodeListCtrl.h" />
+    <ClInclude Include="..\codemax\source\codemax.h" />
+    <ClInclude Include="..\codemax\source\CodeTipCtrl.h" />
+    <ClInclude Include="..\codemax\source\CodeTipFuncHighlightCtrl.h" />
+    <ClInclude Include="..\codemax\source\CodeTipHighlightCtrl.h" />
+    <ClInclude Include="..\codemax\source\CodeTipMultiFuncCtrl.h" />
+    <ClInclude Include="..\codemax\source\DEBUG.H" />
+    <ClInclude Include="..\codemax\source\DispatchWnd.h" />
+    <ClInclude Include="..\codemax\source\DRAGDROP.H" />
+    <ClInclude Include="..\codemax\source\EDITDLGS.H" />
+    <ClInclude Include="..\codemax\source\EDITSEL.H" />
+    <ClInclude Include="..\codemax\source\EDITVIEW.H" />
+    <ClInclude Include="..\codemax\source\GLOBALSX.H" />
+    <ClInclude Include="..\codemax\source\HKEYCTRL.H" />
+    <ClInclude Include="..\codemax\source\hotkeyx.h" />
+    <ClInclude Include="..\codemax\source\ICodeList.h" />
+    <ClInclude Include="..\codemax\source\ICodeTip.h" />
+    <ClInclude Include="..\codemax\source\ICodeTip.hxx" />
+    <ClInclude Include="..\codemax\source\ICodeTipFuncHighlight.h" />
+    <ClInclude Include="..\codemax\source\ICodeTipFuncHighlight.hxx" />
+    <ClInclude Include="..\codemax\source\ICodeTipHighlight.h" />
+    <ClInclude Include="..\codemax\source\ICodeTipMultiFunc.h" />
+    <ClInclude Include="..\codemax\source\LANGX.H" />
+    <ClInclude Include="..\codemax\source\MISC.H" />
+    <ClInclude Include="..\codemax\source\POSX.H" />
+    <ClInclude Include="..\codemax\source\PRECOMP.H" />
+    <ClInclude Include="..\codemax\source\Rect.h" />
+    <ClInclude Include="..\codemax\source\rectx.h" />
+    <ClInclude Include="..\codemax\source\RegClassList.h" />
+    <ClInclude Include="..\codemax\source\regexp.h" />
+    <ClInclude Include="..\codemax\source\resource.h" />
+    <ClInclude Include="..\codemax\source\resource2.h" />
+    <ClInclude Include="..\codemax\source\UNDO.H" />
+    <ClInclude Include="..\codemax\source\Wnd.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

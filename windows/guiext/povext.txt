@@ -1,0 +1,180 @@
+                     Persistence of Vision(tm) Ray Tracer
+                         POV-Ray(tm) Version 3.6
+
+                  POV-Ray GUI Extension License Agreement
+                               Version 1.02
+
+                       GENERAL GUIEXT LICENSE AGREEMENT
+
+This  document  pertains  to  the  creation  and distribution of the custom GUI
+Extensions  DLL's  (hereafter  referred  to  as  "GUIEXT'S")  for the Microsoft
+Windows  version   of  the   Persistence  of   Vision(tm)  Ray   Tracer  a.k.a.
+POV-Ray(tm).  It   is  additional   to  the   POV-Ray  end-user   license  (aka
+'POVLEGAL.DOC'). For you to use  the GUIEXT interface, our sample  source code,
+and to comply with the terms of  this license, it is also necessary for  you to
+agree to and comply with the terms of the end-user license.
+
+                             USAGE PROVISIONS
+
+GUI Extensions for  POV-Ray for Windows  must comply with  this license. A  GUI
+Extension DLL is required to contain  the text of an agreement which  refers to
+this document. If  this text is  not present it  will not be  loaded by POV-Ray
+for Windows (hereafter referred to as povwin.)
+
+The text itself  referred to above  is worded in  an exact and  specific manner
+and is Copyright  1996 by Christopher  J. Cason. This  document will grant  you
+permission to  include this  copyrighted text  in your  Extension DLL  provided
+that you comply  with all terms  and conditions herein.  Failure to do  so will
+void any permission to use that text  and also to the usage of the  programming
+interface into POV-Ray for Windows and of the demonstration source code.
+
+Extensions may be based on the  sample GUIEXT source code we provide.  That is,
+we explicitly permit you to re-use  our demonstration source code (and in  fact
+encourage it, since it helps ensure  that you comply with our standards.)  This
+permission does not extend to other POV-Ray source files.
+
+Extensions  may  be  written  in  any  programming language compatible with the
+requirements for the interface.
+
+If you violate this licence it is automatically revoked for all GUIEXT's  which
+you have written or distributed ; past, present, or future.
+
+The authors and copyright holders of  POV-Ray assumes NO LIABILITY for the  use
+or  misuse  of  GUIEXT's.  By  accepting  this  licence  you  agree  to totally
+indemnify and hold harmless Persistence  of Vision Raytracer Pty. Ltd.  and its
+associates  (as  defined  in  the  POV-Ray  v3.6  end-user  license)  from  any
+consequences of  any sort  arising directly  or indirectly  from the existance,
+non-existance,  use  or  failure  to  use,   of  your  GUIEXT,  or  any   other
+circumstance related to  it. This applies  even if the  problem is caused  by a
+bug in POV-Ray itself.
+
+You must   agree that   under no   circumstances will   Persistence of   Vision
+Raytracer  Pty.  Ltd.  or  its  associates   be  liable  in  any manner, shape,
+fashion or form, arising out of  their approval, non-approval, or  cancellation
+of your use of this licence, nor for   any decision made to stop, prevent,   or
+otherwise disallow  distribution   of  any  item   covered  by  this   licence,
+nor  for  any  comments  made  regarding   the  use  or  operation, quality, or
+general usefulness  of the  GUIEXT or  related items.  You must  agree that the
+POV-Team has  the   right to  change this   licence or  the   GUIEXT  interface
+specificaton  at any time  and that you have no recourse if this occurs.
+
+If you do  not agree to  any of the  preceding (or following)  then you are not
+granted a licence and therefore may not use the GUIEXT interface or the  sample
+source code.
+
+                          INTENTION OF THIS LICENCE
+
+Broadly, the intention of this licence is -
+
+  o to protect POV-Ray users from poor-quality GUIEXT's.
+  o to protect the POV-Team members from unnecessary support work caused
+    by other person's GUI Extensions.
+  o to prevent persons from taking unreasonable commercial advantage of
+    our freeware program, POV-Ray for Windows.
+
+                                RECOMMENDATIONS
+
+We  recommend  (but  do  not  require)  that  GUIEXT's be distributed in a .ZIP
+archive. The name of the archive should  be the name of the GUIEXT DLL.  If the
+archive contains more than one DLL, it must be the name of the main DLL. It  is
+permissable to  form a  contraction of  a DLL  name if  it is  more than  eight
+characters, so that it will form a 8.3 archive filename.
+
+GUIEXT DLL's should have the file extension .PGE rather than .DLL.
+
+                              LICENCE CONDITIONS
+
+Extensions  are  not  permitted  to   display  splash  screens  or  any   other
+notification  that  they  are  loaded  other  than functionally essential ones,
+unless  the  user  explicitly  activates  such  by  selecting them from the GUI
+Extensions menu.
+
+Extensions  must  not  use  the  reserved  GUIEXT  ID's  00-15  when  modifying
+PVENGINE.INI.
+
+No file  included with  a GUIEXT,  including the  GUIEXT itself,  may alter any
+POV-Ray for  Windows file,  including executables  and INI  files, except under
+the following circumstances -
+
+  o it has been granted specific permission by Persistence of Vision Raytracer
+    Pty. Ltd. to do so, or
+  o it is the standard INI file, POVRAY.INI, or a user-specified INI file,
+    and the user has been explicitly asked for permission, or
+  o it is PVENGINE.INI, and the modification is of the [GIUExtensions]
+    section, and the ID used is not in the range 00-15.
+  o any other file not specifically excluded, and the user has been asked
+    permission for the modification.
+
+Specifically excluded (without limitation) are -
+
+  o POV-Ray for Windows executables, including DLL's, or any other module
+    that contains executable or machine code.
+
+Files in  the above  'specifically excluded'  category may  never be  modified,
+including while they are  in memory or after  they are loaded by  the operating
+system.
+
+Extensions  are  not  permitted  to  take  any action that could jeopardise the
+correct operation of POV-Ray.
+
+Extensions are not permitted to use "back door's", or undocumented  interfaces,
+to access POV-Ray functions,  without explicit written permission.  A interface
+is not considered documented if it is only documented in a source code file.
+
+An  exception  is  granted  for  any  function or interface demonstrated in the
+sample  extension  source  code  provided  with  the POV-Ray for Windows source
+code.
+
+Extensions may  not show  or do  anything that  may suggest,  imply, or cause a
+person  to  believe  that  they  are   endorsed  by  the  POV-Ray  authors   or
+distributors, or that they are part of POV-Ray itself.
+
+EXCEPT BY  WRITTEN AGREEMENT,  EXTENSIONS AND  ANY PROGRAMS  THEY INTERACT WITH
+MUST BE FREEWARE AND  PROVIDE FULL SOURCE. The  source code need not  be in the
+same archive  but must  be freely  available. Persistance  of Vision  Raytracer
+Pty. Ltd.  may grant  authors permission  to create  a shareware  or commercial
+GUIEXT at its discretion.
+
+GUIEXT's may  not perform  any function  that is  intended to  avoid the  above
+clause. This includes (but is not  limited to) a freeware GUIEXT being  written
+solely  for  the  purpose  of  allowing  the  use  of a commercial or shareware
+program. GUIEXT's in this category must be treated as above.
+
+Extension authors with a genuine  reason for performing the above  function, or
+who have (or  will have) a  good quality value-added  function in or  available
+via a GUIEXT, and  who want to charge  money for it, should  not be discouraged
+by the  above. Just  write to  us ;  we're reasonable  people and  want only to
+protect  our  freeware  program  from  unreasonable commercial exploitation. If
+your idea is non-trivial you've got a good chance of receiving permission.  See
+POVLEGAL.DOC for contact information.
+
+Extension authors  are required  to build  their real  name and  a valid  email
+address  into  the  DLL.  The  email  address  must be valid for at least three
+months from  any time  the extension  is distributed  by the  author or someone
+acting for them. This information must be presented via the correct  interface,
+as documented in the demonstration source code.
+
+It must  be made  clear in  all documentation  regarding the  GUIEXT that it is
+neither supported  nor endorsed  by the  POV-Team. It  must be  made clear that
+users are NOT to contact the POV-Team for support on GUIEXT's.
+
+The GUIEXT  must contain  sufficient documentation  for it  to be  used without
+referring to the  author or other  information sources, except  when the nature
+of the GUIEXT makes that impossible.
+
+GUIEXT's  must  provide  a  menu  handle  to  povwin  containing  at  least two
+functional  entries  ;  one  titled  'Enabled'  and  one titled 'About'.  It is
+permissable  to  add  words  after  the  word  'About'. The Enabled entry, when
+activated, must toggle the extension between a loaded-and-enabled state, and  a
+loaded-but- disabled state.  This setting must  be persistent ;  i.e. it should
+be preserved  in a  disk file  or other  method of  storage such  that when the
+GUIEXT is next loaded the same state is restored.
+
+The About entry  must show an  About box which,  at the very  least, states the
+extension's  full  name  and  purpose,  the  name  of  the  author, their email
+address, and  a disclaimer  stating that  Persistance of  Vision Raytracer Pty.
+Ltd. is not responsible for this GUIEXT.
+
+GUIEXT's  must  provide  'tip'  text  to  POV-Ray  for  Windows via the defined
+interface, describing what a particular menu entry does, on demand.
+

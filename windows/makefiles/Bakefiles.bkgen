@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<bakefile-gen>
+
+    <input>povray.bkl</input>
+
+    <add-formats>borland,mingw,msvc,watcom,dmars_smake</add-formats>
+    
+</bakefile-gen>

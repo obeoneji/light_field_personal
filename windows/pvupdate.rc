@@ -1,0 +1,68 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winuser.h"
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Australia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENA)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_AUS
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 3,6,2,0
+ PRODUCTVERSION 3,6,2,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "FileDescription", "POV-Ray for Windows update checker DLL"
+            VALUE "FileVersion", "3.6.2"
+            VALUE "InternalName", "povupdate"
+            VALUE "LegalCopyright", "Copyright (c) 1991-2003 Persistence of Vision Team. Copyright (c) 1996-2003 Christopher Cason. Copyright (c) 2003-2009 Persistence of Vision Raytracer Pty. Ltd. All Rights Reserved. May only be used or distributed under the terms of the POV-Ray licence."
+            VALUE "LegalTrademarks", "POV-Ray(tm) is a trademark of Persistence of Vision Raytracer Pty. Ltd."
+            VALUE "OriginalFilename", "povupdate.dll"
+            VALUE "ProductName", "POV-Ray"
+            VALUE "ProductVersion", "3.6.2"
+            VALUE "Comments", "May only be used or distributed under the terms of the POV-Ray licence."
+            VALUE "CompanyName", "Persistence of Vision Raytracer Pty. Ltd."
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc09, 1200
+    END
+END
+
+#endif    // English (Australia) resources
+

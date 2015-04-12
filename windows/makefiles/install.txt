@@ -1,0 +1,38 @@
+NOTE: These makefiles are provided only for convenience.
+Depending on the version of the compiler in use, you
+may not be able to get the code to compile at all since
+the POV-Ray v3.6 source needs a fairly C++ standards
+compliant compiler and library/include file set. (It is for
+that reason, for example, that Visual C++ v6 and earlier are
+no longer supported). But if you could be able to make it work
+with your favourite compiler, just let us know at
+povray.unofficial.patches and provide necessary changes.
+
+makefile.bcc - make of Borland C++  (www.borland.com)
+makefile.gcc - make of MinGW        (www.mingw.org)
+makefile.vc  - nmake of VisualC     (www.microsoft.com)
+makefile.wat - wmake of Watcom      (www.openwatcom.org)
+makefile.dms - smake of DigitalMars (www.digitalmars.com)
+
+Those makefiles are supposed to be called from main POV-Ray 
+source directory with path 'windows\makefiles' and optionally
+with flags for including GUI (USE_GUI=0 or USE_GUI=1)
+and performing debug build (BUILD=debug or BUILD=release).
+Note that those switches influence name of subdirectory where
+application will be builded so you can maintain debug and release,
+console and GUI versions separately. Note also that GUI version
+needs HtmlHelp header and library available. This differs between
+compilers and sometimes needs additional tweaking and downloading
+from www.microsoft.com.
+
+Example of building with MinGW:
+
+  make.exe -f windows\makefiles\makefile.gcc USE_GUI=0 BUILD=debug
+
+
+
+AUTOMATION behind makefiles:
+
+Provided makefiles were created with the help of Bakefile tool.
+Bakefile specification for making them is provided in *.bkl files.
+See bakefile.sf.net for more details.

@@ -1,0 +1,674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|Win32">
+      <Configuration>debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (SSE2)|Win32">
+      <Configuration>Release (SSE2)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (SSE2)|x64">
+      <Configuration>Release (SSE2)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|Win32">
+      <Configuration>release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AABE6748-952F-4762-9489-F4FE5053E59F}</ProjectGuid>
+    <RootNamespace>povwin</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(ProjectDir)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(ProjectDir)\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|Win32'">$(ProjectDir)$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(ProjectDir)\$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(ProjectDir)\$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|Win32'">$(ProjectDir)$(Platform)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|Win32'">$(ProjectDir)$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|x64'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\;..\..\source;..\..\source\base;..\..\source\frontend;..\..\source-private;..\..\libraries\jpeg;..\..\libraries\zlib;..\..\libraries\png;..\..\libraries\tiff\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;COMMONCTRL_VERSION=0x500;CLASSLIB_DEFS_H;NOMINMAX;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)pvengine32d.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>Win32\povwin.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pvengine32d.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>..\pvengine32.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <OutputFile>$(OutDir)pvengined.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\;..\..\source;..\..\source\base;..\..\source\frontend;..\..\source-private;..\..\libraries\jpeg;..\..\libraries\zlib;..\..\libraries\png;..\..\libraries\tiff\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;WINVER=0x0500;_WIN32_WINNT=0x0500;COMMONCTRL_VERSION=0x500;CLASSLIB_DEFS_H;NOMINMAX;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)pvengine64d.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>bin64\pvengine64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pvengine64d.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>..\pvengine64.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <OutputFile>$(OutDir)pvengine64d.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\;..\..\source;..\..\source\base;..\..\source\frontend;..\..\source-private;..\..\libraries\jpeg;..\..\libraries\zlib;..\..\libraries\png;..\..\libraries\tiff\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;COMMONCTRL_VERSION=0x500;CLASSLIB_DEFS_H;WINVER=0x0500;_WIN32_WINNT=0x0500;NOMINMAX;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)pvengine32.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>bin32\pvengine32.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pvengine32.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)pvengine32.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <SetChecksum>true</SetChecksum>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>..\pvengine32.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <OutputFile>$(OutDir)pvengine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\;..\..\source;..\..\source\base;..\..\source\frontend;..\..\source-private;..\..\libraries\jpeg;..\..\libraries\zlib;..\..\libraries\png;..\..\libraries\tiff\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;COMMONCTRL_VERSION=0x500;CLASSLIB_DEFS_H;WINVER=0x0500;_WIN32_WINNT=0x0500;NOMINMAX;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)pvengine64.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>bin64\pvengine64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pvengine64.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <SetChecksum>true</SetChecksum>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>..\pvengine64.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <OutputFile>$(OutDir)pvengine64.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\;..\..\source;..\..\source\base;..\..\source\frontend;..\..\source-private;..\..\libraries\jpeg;..\..\libraries\zlib;..\..\libraries\png;..\..\libraries\tiff\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;COMMONCTRL_VERSION=0x500;CLASSLIB_DEFS_H;WINVER=0x0500;_WIN32_WINNT=0x0500;NOMINMAX;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_WARNINGS=1;SSE2=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)pvengine32-sse2.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;gdi32.lib;user32.lib;kernel32.lib;advapi32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>bin32\pvengine32-sse2.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pvengine32-sse2.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>$(OutDir)pvengine32-sse2.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <SetChecksum>true</SetChecksum>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>..\pvengine32.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <OutputFile>$(OutDir)pvengine.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (SSE2)|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\;..\..\source;..\..\source\base;..\..\source\frontend;..\..\source-private;..\..\libraries\jpeg;..\..\libraries\zlib;..\..\libraries\png;..\..\libraries\tiff\libtiff;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;COMMONCTRL_VERSION=0x500;CLASSLIB_DEFS_H;WINVER=0x0500;_WIN32_WINNT=0x0500;NOMINMAX;ISOLATION_AWARE_ENABLED;_CRT_SECURE_NO_WARNINGS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ProgramDataBaseFileName>$(OutDir)pvengine64.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WIN32_WINNT=0x0500;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>bin64\pvengine64.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)pvengine64.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <SetChecksum>true</SetChecksum>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalManifestFiles>..\pvengine64.manifest;%(AdditionalManifestFiles)</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <OutputFile>$(OutDir)pvengine64.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\atmosph.h" />
+    <ClInclude Include="..\..\source\bbox.h" />
+    <ClInclude Include="..\..\source\bcyl.h" />
+    <ClInclude Include="..\..\source\benchmark.h" />
+    <ClInclude Include="..\..\source\bezier.h" />
+    <ClInclude Include="..\..\source\blob.h" />
+    <ClInclude Include="..\..\source\boxes.h" />
+    <ClInclude Include="..\..\source\bsphere.h" />
+    <ClInclude Include="..\..\source\camera.h" />
+    <ClInclude Include="..\..\source\chi2.h" />
+    <ClInclude Include="..\..\source\colour.h" />
+    <ClInclude Include="..\..\source\colutils.h" />
+    <ClInclude Include="..\..\source\cones.h" />
+    <ClInclude Include="..\..\source\base\configbase.h" />
+    <ClInclude Include="..\..\source\frontend\configfrontend.h" />
+    <ClInclude Include="..\..\source\csg.h" />
+    <ClInclude Include="..\..\source\frontend\defaultplatformbase.h" />
+    <ClInclude Include="..\..\source\frontend\defaultrenderfrontend.h" />
+    <ClInclude Include="..\..\source\discs.h" />
+    <ClInclude Include="..\..\source\express.h" />
+    <ClInclude Include="..\..\source\base\fileinputoutput.h" />
+    <ClInclude Include="..\..\source\fncode.h" />
+    <ClInclude Include="..\..\source\fnintern.h" />
+    <ClInclude Include="..\..\source\fnpovfpu.h" />
+    <ClInclude Include="..\..\source\fnsyntax.h" />
+    <ClInclude Include="..\..\source\fpmetric.h" />
+    <ClInclude Include="..\..\source\fractal.h" />
+    <ClInclude Include="..\..\source\frame.h" />
+    <ClInclude Include="..\..\source\function.h" />
+    <ClInclude Include="..\..\source\gif.h" />
+    <ClInclude Include="..\..\source\gifdecod.h" />
+    <ClInclude Include="..\..\source\hcmplx.h" />
+    <ClInclude Include="..\..\source\hfield.h" />
+    <ClInclude Include="..\..\source\histogra.h" />
+    <ClInclude Include="..\..\source\iff.h" />
+    <ClInclude Include="..\..\source\image.h" />
+    <ClInclude Include="..\..\source\interior.h" />
+    <ClInclude Include="..\..\source\isosurf.h" />
+    <ClInclude Include="..\..\source\jpeg_pov.h" />
+    <ClInclude Include="..\..\source\lathe.h" />
+    <ClInclude Include="..\..\source\lbuffer.h" />
+    <ClInclude Include="..\..\source\lightgrp.h" />
+    <ClInclude Include="..\..\source\lighting.h" />
+    <ClInclude Include="..\..\source\mathutil.h" />
+    <ClInclude Include="..\..\source\matrices.h" />
+    <ClInclude Include="..\..\source\media.h" />
+    <ClInclude Include="..\..\source\mesh.h" />
+    <ClInclude Include="..\..\source\frontend\messageoutput.h" />
+    <ClInclude Include="..\..\source\normal.h" />
+    <ClInclude Include="..\..\source\objects.h" />
+    <ClInclude Include="..\..\source\octree.h" />
+    <ClInclude Include="..\..\source\optout.h" />
+    <ClInclude Include="..\..\source\parse.h" />
+    <ClInclude Include="..\..\source\parsestr.h" />
+    <ClInclude Include="..\..\source\parstxtr.h" />
+    <ClInclude Include="..\..\source\pattern.h" />
+    <ClInclude Include="..\..\source\pgm.h" />
+    <ClInclude Include="..\..\source\photons.h" />
+    <ClInclude Include="..\..\source\pigment.h" />
+    <ClInclude Include="..\..\source\planes.h" />
+    <ClInclude Include="..\..\source\base\platformbase.h" />
+    <ClInclude Include="..\..\source\png_pov.h" />
+    <ClInclude Include="..\..\source\point.h" />
+    <ClInclude Include="..\..\source\base\pointer.h" />
+    <ClInclude Include="..\..\source\poly.h" />
+    <ClInclude Include="..\..\source\polygon.h" />
+    <ClInclude Include="..\..\source\polysolv.h" />
+    <ClInclude Include="..\..\source\base\pov_err.h" />
+    <ClInclude Include="..\..\source\pov_mem.h" />
+    <ClInclude Include="..\..\source\pov_util.h" />
+    <ClInclude Include="..\..\source\base\povms.h" />
+    <ClInclude Include="..\..\source\base\povmscpp.h" />
+    <ClInclude Include="..\..\source\povmsend.h" />
+    <ClInclude Include="..\..\source\base\povmsgid.h" />
+    <ClInclude Include="..\..\source\povmsrec.h" />
+    <ClInclude Include="..\..\source\povray.h" />
+    <ClInclude Include="..\..\source\ppm.h" />
+    <ClInclude Include="..\..\source\prism.h" />
+    <ClInclude Include="..\..\source\base\processoptions.h" />
+    <ClInclude Include="..\..\source\frontend\processrenderoptions.h" />
+    <ClInclude Include="..\..\source\quadrics.h" />
+    <ClInclude Include="..\..\source\quatern.h" />
+    <ClInclude Include="..\..\source\radiosit.h" />
+    <ClInclude Include="..\..\source\ray.h" />
+    <ClInclude Include="..\..\source\rendctrl.h" />
+    <ClInclude Include="..\..\source\render.h" />
+    <ClInclude Include="..\..\source\frontend\renderfrontend.h" />
+    <ClInclude Include="..\..\source\renderio.h" />
+    <ClInclude Include="..\..\source\reswords.h" />
+    <ClInclude Include="..\..\source\sor.h" />
+    <ClInclude Include="..\..\source\spheres.h" />
+    <ClInclude Include="..\..\source\sphsweep.h" />
+    <ClInclude Include="..\..\source\splines.h" />
+    <ClInclude Include="..\..\source\statspov.h" />
+    <ClInclude Include="..\..\source\base\stringutilities.h" />
+    <ClInclude Include="..\..\source\super.h" />
+    <ClInclude Include="..\..\source\targa.h" />
+    <ClInclude Include="..\..\source\base\textstream.h" />
+    <ClInclude Include="..\..\source\base\textstreambuffer.h" />
+    <ClInclude Include="..\..\source\texture.h" />
+    <ClInclude Include="..\..\source\tiff_pov.h" />
+    <ClInclude Include="..\..\source\tokenize.h" />
+    <ClInclude Include="..\..\source\torus.h" />
+    <ClInclude Include="..\..\source\triangle.h" />
+    <ClInclude Include="..\..\source\truetype.h" />
+    <ClInclude Include="..\..\source\txttest.h" />
+    <ClInclude Include="..\..\source\userdisp.h" />
+    <ClInclude Include="..\..\source\userio.h" />
+    <ClInclude Include="..\..\source\vbuffer.h" />
+    <ClInclude Include="..\..\source\vector.h" />
+    <ClInclude Include="..\..\source\vlbuffer.h" />
+    <ClInclude Include="..\..\source\warps.h" />
+    <ClInclude Include="..\config.h" />
+    <ClInclude Include="..\pvbitmap.h" />
+    <ClInclude Include="..\pvbmp.h" />
+    <ClInclude Include="..\pvdemo.h" />
+    <ClInclude Include="..\pvdialog.h" />
+    <ClInclude Include="..\pvedit.h" />
+    <ClInclude Include="..\pvengine.h" />
+    <ClInclude Include="..\pvfrontend.h" />
+    <ClInclude Include="..\pvguiext.h" />
+    <ClInclude Include="..\pvlegal.h" />
+    <ClInclude Include="..\pvtips.h" />
+    <ClInclude Include="..\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\atmosph.cpp" />
+    <ClCompile Include="..\..\source\bbox.cpp" />
+    <ClCompile Include="..\..\source\bcyl.cpp" />
+    <ClCompile Include="..\..\source\benchmark.cpp" />
+    <ClCompile Include="..\..\source\bezier.cpp" />
+    <ClCompile Include="..\..\source\blob.cpp" />
+    <ClCompile Include="..\..\source\boxes.cpp" />
+    <ClCompile Include="..\..\source\bsphere.cpp" />
+    <ClCompile Include="..\..\source\camera.cpp" />
+    <ClCompile Include="..\..\source\chi2.cpp" />
+    <ClCompile Include="..\..\source\colour.cpp" />
+    <ClCompile Include="..\..\source\colutils.cpp" />
+    <ClCompile Include="..\..\source\cones.cpp" />
+    <ClCompile Include="..\..\source\csg.cpp" />
+    <ClCompile Include="..\..\source\frontend\defaultplatformbase.cpp" />
+    <ClCompile Include="..\..\source\frontend\defaultrenderfrontend.cpp" />
+    <ClCompile Include="..\..\source\discs.cpp" />
+    <ClCompile Include="..\..\source\express.cpp" />
+    <ClCompile Include="..\..\source\base\fileinputoutput.cpp" />
+    <ClCompile Include="..\..\source\fncode.cpp" />
+    <ClCompile Include="..\..\source\fnintern.cpp" />
+    <ClCompile Include="..\..\source\fnpovfpu.cpp" />
+    <ClCompile Include="..\..\source\fnsyntax.cpp" />
+    <ClCompile Include="..\..\source\fpmetric.cpp" />
+    <ClCompile Include="..\..\source\fractal.cpp" />
+    <ClCompile Include="..\..\source\function.cpp" />
+    <ClCompile Include="..\..\source\gif.cpp" />
+    <ClCompile Include="..\..\source\gifdecod.cpp" />
+    <ClCompile Include="..\..\source\hcmplx.cpp" />
+    <ClCompile Include="..\..\source\hfield.cpp" />
+    <ClCompile Include="..\..\source\histogra.cpp" />
+    <ClCompile Include="..\..\source\iff.cpp" />
+    <ClCompile Include="..\..\source\image.cpp" />
+    <ClCompile Include="..\..\source\interior.cpp" />
+    <ClCompile Include="..\..\source\isosurf.cpp" />
+    <ClCompile Include="..\..\source\jpeg_pov.cpp" />
+    <ClCompile Include="..\..\source\lathe.cpp" />
+    <ClCompile Include="..\..\source\lbuffer.cpp" />
+    <ClCompile Include="..\..\source\lightgrp.cpp" />
+    <ClCompile Include="..\..\source\lighting.cpp" />
+    <ClCompile Include="..\..\source\mathutil.cpp" />
+    <ClCompile Include="..\..\source\matrices.cpp" />
+    <ClCompile Include="..\..\source\media.cpp" />
+    <ClCompile Include="..\..\source\mesh.cpp" />
+    <ClCompile Include="..\..\source\frontend\messageoutput.cpp" />
+    <ClCompile Include="..\..\source\normal.cpp" />
+    <ClCompile Include="..\..\source\objects.cpp" />
+    <ClCompile Include="..\..\source\octree.cpp" />
+    <ClCompile Include="..\..\source\optout.cpp" />
+    <ClCompile Include="..\..\source\parse.cpp" />
+    <ClCompile Include="..\..\source\parsestr.cpp" />
+    <ClCompile Include="..\..\source\parstxtr.cpp" />
+    <ClCompile Include="..\..\source\pattern.cpp" />
+    <ClCompile Include="..\..\source\pgm.cpp" />
+    <ClCompile Include="..\..\source\photons.cpp" />
+    <ClCompile Include="..\..\source\pigment.cpp" />
+    <ClCompile Include="..\..\source\planes.cpp" />
+    <ClCompile Include="..\..\source\png_pov.cpp" />
+    <ClCompile Include="..\..\source\point.cpp" />
+    <ClCompile Include="..\..\source\poly.cpp" />
+    <ClCompile Include="..\..\source\polygon.cpp" />
+    <ClCompile Include="..\..\source\polysolv.cpp" />
+    <ClCompile Include="..\..\source\pov_mem.cpp" />
+    <ClCompile Include="..\..\source\pov_util.cpp" />
+    <ClCompile Include="..\..\source\base\povms.cpp" />
+    <ClCompile Include="..\..\source\base\povmscpp.cpp" />
+    <ClCompile Include="..\..\source\povmsend.cpp" />
+    <ClCompile Include="..\..\source\povmsrec.cpp" />
+    <ClCompile Include="..\..\source\povray.cpp" />
+    <ClCompile Include="..\..\source\ppm.cpp" />
+    <ClCompile Include="..\..\source\prism.cpp" />
+    <ClCompile Include="..\..\source\base\processoptions.cpp" />
+    <ClCompile Include="..\..\source\frontend\processrenderoptions.cpp" />
+    <ClCompile Include="..\..\source\quadrics.cpp" />
+    <ClCompile Include="..\..\source\quatern.cpp" />
+    <ClCompile Include="..\..\source\rad_data.cpp" />
+    <ClCompile Include="..\..\source\radiosit.cpp" />
+    <ClCompile Include="..\..\source\ray.cpp" />
+    <ClCompile Include="..\..\source\rendctrl.cpp" />
+    <ClCompile Include="..\..\source\render.cpp" />
+    <ClCompile Include="..\..\source\frontend\renderfrontend.cpp" />
+    <ClCompile Include="..\..\source\renderio.cpp" />
+    <ClCompile Include="..\..\source\reswords.cpp" />
+    <ClCompile Include="..\..\source\sor.cpp" />
+    <ClCompile Include="..\..\source\spheres.cpp" />
+    <ClCompile Include="..\..\source\sphsweep.cpp" />
+    <ClCompile Include="..\..\source\splines.cpp" />
+    <ClCompile Include="..\..\source\statspov.cpp" />
+    <ClCompile Include="..\..\source\base\stringutilities.cpp" />
+    <ClCompile Include="..\..\source\super.cpp" />
+    <ClCompile Include="..\..\source\targa.cpp" />
+    <ClCompile Include="..\..\source\base\textstream.cpp" />
+    <ClCompile Include="..\..\source\base\textstreambuffer.cpp" />
+    <ClCompile Include="..\..\source\texture.cpp" />
+    <ClCompile Include="..\..\source\tiff_pov.cpp" />
+    <ClCompile Include="..\..\source\tokenize.cpp" />
+    <ClCompile Include="..\..\source\torus.cpp" />
+    <ClCompile Include="..\..\source\triangle.cpp" />
+    <ClCompile Include="..\..\source\truetype.cpp" />
+    <ClCompile Include="..\..\source\txttest.cpp" />
+    <ClCompile Include="..\..\source\userdisp.cpp" />
+    <ClCompile Include="..\..\source\userio.cpp" />
+    <ClCompile Include="..\..\source\vbuffer.cpp" />
+    <ClCompile Include="..\..\source\vlbuffer.cpp" />
+    <ClCompile Include="..\..\source\warps.cpp" />
+    <ClCompile Include="..\pvbitmap.cpp" />
+    <ClCompile Include="..\pvbmp.cpp" />
+    <ClCompile Include="..\pvdialog.cpp" />
+    <ClCompile Include="..\pvedit.cpp" />
+    <ClCompile Include="..\pvengine.cpp" />
+    <ClCompile Include="..\pvfiles.cpp" />
+    <ClCompile Include="..\pvfrontend.cpp" />
+    <ClCompile Include="..\pvguiext.cpp" />
+    <ClCompile Include="..\pvmenu.cpp" />
+    <ClCompile Include="..\pvmisc.cpp" />
+    <ClCompile Include="..\pvtext.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\pvengine.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="jpeg.vcxproj">
+      <Project>{0fbd43e0-808d-43c9-8b3d-f2125007ea9a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="libpng.vcxproj">
+      <Project>{f2b74348-b381-46bb-870c-0912e36fa933}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="tiff.vcxproj">
+      <Project>{186baef6-cf24-42c1-8ce3-25590cb9f6e7}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="zlib.vcxproj">
+      <Project>{8bb067c4-7135-4643-863c-49c520beea01}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
